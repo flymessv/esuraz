@@ -53,7 +53,7 @@
 		"sequelize-redis": "^1.0.12",
 		"simple-git": "^1.126.0",
 		"svg2img": "^0.6.1",
-		"vk-io": "^3.2.0",
+		"vk-io": "^4.0.0-rc.8",
 	  	"abbrev": "^1.1.1",
       		"agent-base": "^6.0.2",
      		"ajv": "^6.5.5",
