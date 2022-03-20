@@ -2,7 +2,7 @@
   "name": "Anna",
   "version": "0.0.2",
   "description": "Bot Anna by @zuvs",
-  "main": "anna.js",
+  "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
