@@ -54,7 +54,7 @@
     		"assign-symbols": "^1.0.0",	
 	  	"prequest": "^1.0.0",
 	  	"request": "^2.88.0",
-	  	"module-details-from-path": "^1.0.3" 
+	  	"module-details-from-path": "^1.0.3",
     "async-limiter": "^1.0.0",
     "aws-sign2": "^0.7.0",
     "aws4": "^1.8.0",
