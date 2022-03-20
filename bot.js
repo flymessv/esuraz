@@ -37,7 +37,7 @@ async function saveUsers()
 }
 
 
-vk.setOptions({ token: 'process.env.BOT_TOKEN', pollingGroupId: 181184435 });
+vk.setOptions({ token: process.env.BOT_TOKEN, pollingGroupId: 181184435 });
 const { updates, snippets } = vk;
 updates.startPolling();
 updates.on('message', async (message) => {
