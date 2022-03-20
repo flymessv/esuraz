@@ -13,7 +13,8 @@ const commands = [];
 const request = require('prequest');
 let user = new VK();
 const requests = require('request');
-const fs = require("fs");
+const fs = require("fs").promises;
+
 const rq = require("prequest");
 const bot_owner = 181184435;
 const {Keyboard} = require('vk-io');
