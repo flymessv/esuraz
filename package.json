@@ -55,7 +55,7 @@
 	  	"prequest": "^1.0.0",
 	  	"request": "^2.88.0",
 	  	"module-details-from-path": "^1.0.3" 
-    "async-limiter" 1.0.0
+    "async-limiter: "^1.0.0",
     "aws-sign2": "^0.7.0",
     "aws4": "^1.8.0",
     "assert-plus": "^1.0.0",
