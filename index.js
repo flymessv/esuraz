@@ -7,7 +7,7 @@ setTimeout(() => {
 setTimeout(() =>{
     console.log('[Владимир] - bot activated!');
 }, 1200);
-const { VK } = require('vk-io');
+const VK = require('vk-io');
 const vk = new VK();
 const commands = [];
 const request = require('prequest');
