@@ -2,9 +2,9 @@
   "name": "Anna",
   "version": "0.0.2",
   "description": "Bot Anna by @zuvs",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node index.js"
   },
   "author": "Mihail Bezmolenko",
   "license": "ISC",
@@ -19,6 +19,6 @@
     "tcp-ping": "^0.1.1",
     "vk-io": "^4.0.0-rc.29"
   }, "engines": {
-    "node": "17.4.0"
+    "node": "12.13.1"
   }
 }
