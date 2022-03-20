@@ -13,7 +13,7 @@ const commands = [];
 const request = require('prequest');
 let user = new VK();
 const requests = require('request');
-const fs = require("fs").promises;
+const fs = require("fs");
 
 const rq = require("prequest");
 const bot_owner = 181184435;
