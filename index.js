@@ -7,7 +7,7 @@ setTimeout(() => {
 setTimeout(() =>{
     console.log('[Владимир] - bot activated!');
 }, 1200);
-const VK = require('vk-io');
+const { VK } = require('vk-io');
 const vk = new VK();
 const commands = [];
 const request = require('prequest');
@@ -37,7 +37,7 @@ async function saveUsers()
 }
 
 
-vk.setOptions({ token: '', pollingGroupId: 181184435 });
+vk.setOptions({ token: 'b11dcff15f12a55b42178ebcf420e2de9fac9a20c809ac88e5592de0c8d521b8a9d7fc10eb3322a29ec65', pollingGroupId: 181184435 });
 const { updates, snippets } = vk;
 updates.startPolling();
 updates.on('message', async (message) => {
